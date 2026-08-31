@@ -1,0 +1,10 @@
+{
+  "name": "Broken Growth Ministries",
+  "short_name": "Broken Growth",
+  "start_url": "/brokengrowth/",
+  "scope": "/brokengrowth/",
+  "display": "standalone",
+  "background_color": "#0d1f2d",
+  "theme_color": "#0d1f2d",
+  "description": "Faith-centered reentry, housing, employment and community support in Pensacola, Florida."
+}
