@@ -40,6 +40,20 @@
 
   document.querySelectorAll('[data-year]').forEach(node=>{node.textContent=String(new Date().getFullYear());});
 
+  const founderPhoto=document.querySelector('.story-photo-wrap img');
+  if(founderPhoto){
+    founderPhoto.src='assets/founder-timothy-oates.jpg';
+    founderPhoto.alt='Timothy Oates, Founder and Executive Director of Broken Growth Ministries';
+  }
+  const founderNote=document.querySelector('.story-photo-wrap .visual-note');
+  if(founderNote){
+    founderNote.textContent='Timothy Oates, Founder and Executive Director of Broken Growth Ministries.';
+  }
+  const founderEyebrow=document.querySelector('.founder-copy .eyebrow');
+  if(founderEyebrow){
+    founderEyebrow.textContent='Timothy Oates • Founder & Executive Director';
+  }
+
   let sent50=false;
   let sent90=false;
   const onScroll=()=>{
